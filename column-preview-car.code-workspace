@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../AppData/Local/Temp/Rar$DRa6588.8732/3-column-preview-card-component-main/design"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "column-preview-car"
+	}
+}
