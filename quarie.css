@@ -3,15 +3,8 @@
 /**************************/
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
+
 @media (max-width: 84em) {
-
-    .car--container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-      }
-
 }
 
 /**************************/
@@ -33,7 +26,73 @@
   html {
     /* 8px / 16px = 0.5 = 50% */
     font-size: 40%; 
+    
   }
+
+  .about-title {
+    font-family: "EB Garamond", serif;
+    font-family: "Poppins", sans-serif;
+    width: 60%;
+    font-size: 1.3rem;
+    color: rgb(245, 245, 245);
+padding-left: 4rem;
+  }
+
+  .about-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .long-text {
+    width: 55rem;
+    height: 14rem;
+  }
+
+  .normal-text {
+   width: 55rem;
+  }
+
+.short-text {
+  height: 5rem;
+}
+
+.title_box {
+  width: 43rem;
+  padding-top: 2rem;
+}
+
+.icons-folder {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 4.5rem;
+ width: 24rem;
+gap: 9rem;
+  
+}
+
+.lorem-title-box div {
+  width: 22rem;
+}
+
+.lorem-title-box {
+  width: 27rem;
+}
+
+.show div {
+  width: 37rem;
+}
+
+.icons-folder ion-icon {
+  padding: 1rem;
+ 
+}
+
+.grid-container {
+  padding-left: 11rem;
+}
+
+
 }
 
 /**************************/
@@ -51,6 +110,10 @@
 @media (max-width: 34em) {
   html {
     font-size: 25%;
+  }
+
+  .car--container {
+  background-color: aqua;
   }
 
 }
