@@ -96,3 +96,8 @@ body {
   color: #ffff;
   transition: 200ms;
 }
+
+a {
+  text-decoration: none;
+  color: rgb(44, 42, 42);
+}
